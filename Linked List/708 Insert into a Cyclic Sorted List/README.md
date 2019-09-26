@@ -9,20 +9,22 @@ If the list is empty (i.e., given node is null), you should create a new single 
 
 The following example may help you understand the problem better:
 
-```cpp
+```c++
 1------
 ^     |
 |     V
 4 <---3 <-- HEAD
+```
 
 In the figure above, there is a cyclic sorted list of three elements. You are given a reference to the node with value 3, and we need to insert 2 into the list.
 
+```c++
 1---->2
 ^     |
 |     V
 4 <---3 <-- HEAD
+```
 
 The new node should insert between node 1 and node 3. After the insertion, the list should look like this, and we should still return node 3.
-```
 
 ## Idea
