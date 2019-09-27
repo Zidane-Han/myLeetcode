@@ -1,4 +1,4 @@
-## Basic bit manipulation
+## Bitwise Operator
 https://www.tutorialspoint.com/python/bitwise_operators_example.htm
 - **&** (AND: operator copies a bit to the result if it exists in both operands)
 '''python
