@@ -33,7 +33,11 @@ The frog can jump to the last stone by jumping
 ```html
 [0,1,2,3,4,8,9,11]
 
-Return false. There is no way to jump to the last stone as 
+Return false. 
+There is no way to jump to the last stone as 
 the gap between the 5th and 6th stone is too large.
 ```
 ## Idea
+TODO
+solution 1: DFS
+solution 2: Dynamic Programming
