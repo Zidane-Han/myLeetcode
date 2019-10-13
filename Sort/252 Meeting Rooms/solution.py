@@ -15,8 +15,8 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    intervals = [[0,30],[5,10],[15,20]]
+    intervals = [[0, 30], [5, 10], [15, 20]]
     assert(Solution().canAttendMeetings(intervals) == False)
 
-    intervals = [[7,10],[2,4]]
+    intervals = [[7, 10], [2, 4]]
     assert(Solution().canAttendMeetings(intervals) == True)

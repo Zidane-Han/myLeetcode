@@ -15,3 +15,6 @@ Input: [[7,10],[2,4]]
 Output: true
 ```
 ## Idea
+*lambda* function for python 
+
+*Compare* function for cpp
