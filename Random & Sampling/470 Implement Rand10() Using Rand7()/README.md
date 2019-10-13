@@ -20,4 +20,5 @@ Output: [8,4]
 
 ## Idea
 Sample Rand7() \* Rand7(), which should be in range [1, 49]. 
+
 if the result is range [1, 40], return remainder; otherwise, keep sampling
