@@ -10,4 +10,4 @@ class Solution:
 if __name__ == '__main__':
     nums = [4, 14, 2]
 
-    assert(Solution().totalHammingDistance(nums) == 6) # There is no way for the ball to STOP at the destination
+    assert(Solution().totalHammingDistance(nums) == 6)

@@ -5,7 +5,7 @@ Given a 2d grid map of '1's (land) and '0's (water), count the number of islands
 
 **Example:**
 
-```python
+```html
 Input:
     11110
     11010
@@ -17,7 +17,7 @@ Output: 1
 
 **Example:**
 
-```python
+```html
 Input:
     11000
     11000
