@@ -23,11 +23,14 @@ You should try to do it in place. The program should run in O(1) space complexit
 **Note**:
 
 - The relative order inside both the even and odd groups should remain as it was in the input.
-- The first node is considered odd, the second node even and so on ...\
+- The first node is considered odd, the second node even and so on ...
 
 ## Idea
 
 three pointers: 
+
 one points to the tail of odd list;
+
 one points to the head of even list;
+
 one points to the end of even list.
