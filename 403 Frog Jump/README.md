@@ -39,5 +39,7 @@ the gap between the 5th and 6th stone is too large.
 ```
 ## Idea
 TODO
+
 solution 1: DFS
+
 solution 2: Dynamic Programming
