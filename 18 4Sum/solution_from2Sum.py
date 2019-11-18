@@ -1,5 +1,3 @@
-import collections
-
 class Solution:
     def fourSum(self, nums, target):
         two_sums = {}
