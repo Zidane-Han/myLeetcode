@@ -41,6 +41,14 @@ We can rephrase this as a problem about the prefix sums of A. Let P[i] = A[0] + 
 Motivated by that equation, let opt(y) be the largest x such that P[x] <= P[y] - K. We need two key observations:
 - If x1 < x2 and P[x2] <= P[x1], then opt(y) can never be x1, as if P[x1] <= P[y] - K, then P[x2] <= P[x1] <= P[y] - K but y - x2 is smaller. This implies that our candidates x for opt(y) will have increasing values of P[x].
 - If opt(y1) = x, then we do not need to consider this x again. For if we find some y2 > y1 with opt(y2) = x, then it represents an answer of y2 - x which is worse (larger) than y1 - x.
+```html
+          /\   *
+      /\ /  \ *
+     /       *
+    *         
+   *
+  *
+``` 
 
 Algorithm:
 1. Maintain a "monoqueue" of indices of P: a deque of indices x_0, x_1, ... such that P[x_0], P[x_1], ... is increasing.
