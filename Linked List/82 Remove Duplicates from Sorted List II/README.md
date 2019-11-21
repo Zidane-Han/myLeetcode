@@ -19,3 +19,4 @@ Output: 2->3
 ```
 
 ## Idea
+Use two pointers (prev & currt). Move the currt pointer to the place that are not equal to prev.next, then delete the nodes between two pointers.
