@@ -17,3 +17,6 @@ Input: 1->1->2->3->3
 
 Output: 1->2->3
 ```
+
+## Idea
+Compare whether the neighbour elements are the same.
