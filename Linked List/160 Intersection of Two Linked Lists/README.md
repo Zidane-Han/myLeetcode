@@ -60,3 +60,11 @@ Explanation: The two lists do not intersect, so return null.
 - Your code should preferably run in O(n) time and use only O(1) memory.
 
 ## Idea
+Approach 1: Brute Force. Time - O(mn); Space - O(1)
+
+Approach 2: Hash Table. Time - O(m+n); Space - O(m) or O(n)
+
+Approach 3: Two pointers. Time - O(m+n); Space - O(1)
+- A = a + common; B = b + common;
+- pointer A traverse A, then direct to B; the opposite for pointer B. 
+- As the travelled distance is (a + b + common), two pointers will meet at the intersection point.
