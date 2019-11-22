@@ -8,7 +8,6 @@ Given a list of stones' positions (in units) in sorted ascending order, determin
 If the frog's last jump was k units, then its next jump must be either *k - 1*, *k*, or *k + 1* units. Note that the frog can only jump in the forward direction.
 
 **Note**:
-
 - The number of stones is ≥ 2 and is < 1,100.
 - Each stone's position will be a non-negative integer < 2^31.
 - The first stone's position is always 0.
@@ -38,8 +37,10 @@ There is no way to jump to the last stone as
 the gap between the 5th and 6th stone is too large.
 ```
 ## Idea
-TODO
 
 solution 1: DFS
 
-solution 2: Dynamic Programming
+solution 2: Dynamic Programming.
+- Use a hash table (pos, true/false) to store the position and the reaching possibility;
+- Traverse all the stones and add all possible jumps from that stone;
+- Find the status of the last stone.
