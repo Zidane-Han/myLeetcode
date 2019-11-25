@@ -23,14 +23,18 @@ Explanation: 13 = 4 + 9.
 ## Idea
 **Approach 1:** Recursion (Time Limit Exceeded)
 
-Time - O(n^2); Space - O()
+The number n can always be expressed as *n = a \* x^2 + b*. Traverse all the possible x, then apply the same function for b until b reaches 0.
+
+Time - O(n^2); Space - O(n)
 
 **Approach 2:** DP
 
-Assume dp[i] is known, then dp[i+j\*j] will be min(dp[i+j*j], dp[i]+1)
+Assume dp[i] is known, then dp[i+j\*j] will be min(dp[i+j\*j], dp[i]+1).
 
-Time - O(n^2); Space - O()
+Time - O(n^2); Space - O(n)
 
 **Approach 3:**
 
 Four-square theorem: every natural number can be represented as the sum of four integer squares. (https://en.wikipedia.org/wiki/Lagrange%27s_four-square_theorem)
+
+Time - O(n); Space - O(n)
