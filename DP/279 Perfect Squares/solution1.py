@@ -12,3 +12,10 @@ class Solution(object):
             res = min(res, a + self.numSquares(b))
         
         return res
+
+    
+if __name__ == '__main__':
+
+    assert (Solution().numSquares(12) == 3)
+
+    assert (Solution().numSquares(13) == 2)
