@@ -27,7 +27,7 @@ Time - O(n^2); Space - O()
 
 **Approach 2:** DP
 
-Assume dp[i] is known, then dp[i+j*j] will be min(dp[i+j*j], dp[i]+1)
+Assume dp[i] is known, then dp[i+j\*j] will be min(dp[i+j*j], dp[i]+1)
 
 Time - O(n^2); Space - O()
 
