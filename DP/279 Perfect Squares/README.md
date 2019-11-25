@@ -21,3 +21,10 @@ Explanation: 13 = 4 + 9.
 ```
 
 ## Idea
+**Approach 1:** Recursion (Time Limit Exceeded)
+
+**Approach 2:** DP
+
+**Approach 3:**
+
+Four-square theorem: every natural number can be represented as the sum of four integer squares.
