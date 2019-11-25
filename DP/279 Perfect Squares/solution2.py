@@ -14,3 +14,10 @@ class Solution(object):
                 j += 1
    
         return dp[-1]
+
+
+if __name__ == '__main__':
+
+    assert (Solution().numSquares(12) == 3)
+
+    assert (Solution().numSquares(13) == 2)
