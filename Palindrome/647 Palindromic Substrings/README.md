@@ -22,3 +22,7 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 **Note:** The input string length won't exceed 1000.
 
 ## Idea
+Approach 1: brute force
+- Time complexity O(n^2) and O(n^2) check
+
+
