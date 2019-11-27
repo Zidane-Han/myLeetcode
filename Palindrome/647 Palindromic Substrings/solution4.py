@@ -18,3 +18,9 @@ class Solution(object):
             return Z
 
         return sum((v+1)/2 for v in manachers(s))
+    
+if __name__ == '__main__':
+    
+    assert (Solution().countSubstrings("abc") == 3)
+
+    assert (Solution().countSubstrings("aaa") == 6)
