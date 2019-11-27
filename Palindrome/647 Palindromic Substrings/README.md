@@ -30,4 +30,6 @@ Approach 1: brute force
 Approach 2: find the palindromic around the center
 - Time complexity O(n^2) and O(1) space
 
-Approach 3:
+Approach 3: dynamic programming
+- dp[i-1][j+1] is palindromic when dp[i][j] is palindromic and s[i-1] == s[j+1]
+- Time complexity O(n^2) and O(n^2) space
