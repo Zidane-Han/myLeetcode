@@ -22,8 +22,12 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 **Note:** The input string length won't exceed 1000.
 
 ## Idea
+This is a very good problem that can be solved with different approaches.
+
 Approach 1: brute force
 - Time complexity O(n^2) and O(n^2) check
+
 Approach 2: find the palindromic around the center
 - Time complexity O(n^2) and O(1) space
+
 Approach 3:
