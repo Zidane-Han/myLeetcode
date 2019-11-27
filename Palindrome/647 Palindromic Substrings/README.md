@@ -24,5 +24,6 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 ## Idea
 Approach 1: brute force
 - Time complexity O(n^2) and O(n^2) check
-
-
+Approach 2: find the palindromic around the center
+- Time complexity O(n^2) and O(1) space
+Approach 3:
