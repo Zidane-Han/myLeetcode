@@ -17,3 +17,10 @@ class Solution(object):
                     res += 1
                     
         return res
+
+    
+if __name__ == '__main__':
+    
+    assert (Solution().countSubstrings("abc") == 3)
+
+    assert (Solution().countSubstrings("aaa") == 6)
