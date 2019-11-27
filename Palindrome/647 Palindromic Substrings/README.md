@@ -35,4 +35,6 @@ Approach 3: dynamic programming
 - Time complexity O(n^2) and O(n^2) space
 
 Approach 4: Manacher Algorithm
-- Time complexity O(n)
+- Explaination: https://blog.csdn.net/dyx404514/article/details/42061017
+- https://medium.com/hackernoon/manachers-algorithm-explained-longest-palindromic-substring-22cb27a5e96f
+- Time complexity O(n) and space complexity O(n)
