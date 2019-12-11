@@ -18,3 +18,8 @@ Output:
 ```
 
 ## Idea
+Support we are going to arrange (h, k) and the people higher than h have been in the queue. Then the person (h, k) will be arranged at the (k+1)-th position of the queue.
+
+Approach:
+- Sort the give array from the highest to shortest. If they have the same height, they will be sorted by the second number, from smallest to largest.
+- Put the person of the new array into the queue. The person (h, k) will be inserted into the (k+1) pos of the queue. 
