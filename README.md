@@ -9,7 +9,8 @@
 - binary search tree (BST), heap
 - string & tries
 - union find
-- graph 
+- graph
+- bit manipulation
 
 **Algorithm**
 
