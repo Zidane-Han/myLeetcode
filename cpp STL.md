@@ -8,6 +8,14 @@ vector<int> v(7);  // 7 elements are 0 by default
 vector<int> v(7, 1); // 7 elements are one
 ```
 
+**stack**
+
+```c++
+st.push(element);  // insert the element
+st.top();  // access the top element
+st.pop();  // remove the top element
+```
+
 **unordered_map**
 
 ```cpp
