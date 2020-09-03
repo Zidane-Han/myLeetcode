@@ -25,5 +25,9 @@ s.find(substring, start_index);
 s.find(substring, start_index, len); // length of subtring to match
 // substring
 s.substr(start_index, length=optional);
+
+// conversion
+stoi(str);  // string to int
+to_string(num); // any type of values to string 
 ```
 
