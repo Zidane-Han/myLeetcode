@@ -6,6 +6,13 @@ vector<int> v;
 vector<int> v = {0,1,2,3,4,5};
 vector<int> v(7);  // 7 elements are 0 by default
 vector<int> v(7, 1); // 7 elements are one
+
+// min value
+iterator min_pos = min_element(v.begin(), v.end());
+int min_val = *min_pos;
+
+// relative distance
+int idx = distance(v.begin(), v.begin() + 5);
 ```
 
 **stack**
@@ -19,8 +26,8 @@ st.pop();  // remove the top element
 **unordered_map**
 
 ```cpp
-// write something
-unorder_map
+// delete by key
+u.erase(key)
 ```
 
 **string**
