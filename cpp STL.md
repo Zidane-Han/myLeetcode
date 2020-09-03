@@ -7,6 +7,10 @@ vector<int> v = {0,1,2,3,4,5};
 vector<int> v(7);  // 7 elements are 0 by default
 vector<int> v(7, 1); // 7 elements are one
 
+// resize
+v.resize(n);   // only change the capacity
+v.resize(n, val);   // change the capacity and initialize new elements
+
 // min value
 iterator min_pos = min_element(v.begin(), v.end());
 int min_val = *min_pos;
