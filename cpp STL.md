@@ -17,6 +17,11 @@ v.back();   // access the last element
 v.push_back();
 v.pop_back();   // remove the last element
 
+// insert
+v.insert(it_pos, ele);
+v.insert(it_pos, count, ele);
+v.insert(it_pos, eles.begin(), eles.end());
+
 // min value
 iterator min_pos = min_element(v.begin(), v.end());
 int min_val = *min_pos;
