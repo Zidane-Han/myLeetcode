@@ -35,7 +35,7 @@ bool connected(int p, int q) {
 ```c++
 int root(int i) {
 	while (i != uf[i]) {
-    i = uf[i]
+    i = uf[i];
   }
   return i;
 }
@@ -46,5 +46,35 @@ int root(int i) {
 **Improvement**
 
 - Weighted quick-union
+
+  - O(lgN) for union and connected
+
+  ```c++
+  // maintain extra array sz[i] to count number of objects in the tree rooted at i
+  void union(int p, int q) {
+  	int pid = root(p);
+  	int qid = root(q);
+    
+    if (sz[pid] < sz[qid]) {
+    	uf[pid] = qid;
+      sz[qid] = sz[pid];
+    } else {
+      uf[qid] = pid;
+      sz[pid] = sz[qid];
+    }
+  }
+  ```
+
 - Path compression
 
+  ```c++
+  int root(int i) {
+  	while (i != uf[i]) {
+      uf[i] = uf[uf[i]];	// flatten the tree
+      i = uf[i];
+    }
+    return i;
+  }
+  ```
+
+  
