@@ -11,6 +11,12 @@ vector<int> v(7, 1); // 7 elements are one
 v.resize(n);   // only change the capacity
 v.resize(n, val);   // change the capacity and initialize new elements
 
+// access and add element
+v.front();  // access the first element
+v.back();   // access the last element
+v.push_back();
+v.pop_back();   // remove the last element
+
 // min value
 iterator min_pos = min_element(v.begin(), v.end());
 int min_val = *min_pos;
@@ -44,6 +50,12 @@ s.find(substring, start_index);
 s.find(substring, start_index, len); // length of subtring to match
 // substring
 s.substr(start_index, length=optional);
+
+// add char(s)
+s.push_back(char);
+s += char;
+s.append(string);
+s.append(times, char);
 
 // conversion
 stoi(str);  // string to int
