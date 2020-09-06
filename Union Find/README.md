@@ -1,6 +1,6 @@
 # Union Find
 
-**Make Set **
+**Make Set**
 
 - O(N)
 
