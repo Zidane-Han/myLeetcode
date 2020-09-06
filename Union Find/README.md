@@ -7,7 +7,7 @@
 ```c++
 vector<int> uf(N, 0);
 for (int i = 0; i < N; i++) {
-	uf[i] = i;
+    uf[i] = i;
 }	
 ```
 
@@ -18,13 +18,13 @@ for (int i = 0; i < N; i++) {
 
 ```c++
 void union(int p, int q) {
-	int pid = root(p);
-	int qid = root(q);
-  uf[pid] = qid;
+    int pid = root(p);
+    int qid = root(q);
+    uf[pid] = qid;
 }
 
 bool connected(int p, int q) {
-	return (root(p) == root(q));
+    return (root(p) == root(q));
 }
 ```
 
