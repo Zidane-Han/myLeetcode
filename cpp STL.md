@@ -28,6 +28,11 @@ int min_val = *min_pos;
 
 // relative distance
 int idx = distance(v.begin(), v.begin() + 5);
+
+// sort 
+sort(v.begin(), v.end());
+// count element frequency
+count(v.begin(), v.end(), element);
 ```
 
 **stack**
