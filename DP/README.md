@@ -1,5 +1,14 @@
 # Dynamic Programming
 
+## Steps
+
+1. Characterize the structure of an optimal solution.
+2. Recursively define the value of an optimal solution.
+3. Compute the value of an optimal solution, typically in a bottom-up fashion.
+4. Construct an optimal solution from computed information.
+
+## Classical Problems
+
 
 - Rod Cutting Problem
 
@@ -18,15 +27,17 @@
 
 - Matrix-chain Multiplication Problem
 
+  Given a chain <A1, A2,...,An> of n matrices, where for i = 1,2,...,n, matrix Ai has dimension $p_{i-1}*p_{i}$, fully parenthesize the product A1A2...An in a way that minimizes the number of scalar multiplications.
+
   $ m[i,j]=m[i,k]+m[k+1,j]+p_{i-1}p_{k}p_{j} $
 
   ```
   n = p.length-1
   let m[1..n, 1..n] and s[1..n-1, 2..n] be new tables
-
+  
   for i = 1 to n
       m[i,i] = 0
-
+  
   for l = 2 to n	// l is the chain length
       for i = 1 to n-l+1
           j = i+l-1
