@@ -1,10 +1,5 @@
 # Dynamic Programming
 
-**Make Set**
-
-
-
-
 
 - Rod Cutting Problem
 
@@ -23,7 +18,7 @@
 
 - Matrix-chain Multiplication Problem
 
-  $m[i,j]=m[i,k]+m[k+1,j]+p_{i-1}p_{k}p_{j} $
+  $ m[i,j]=m[i,k]+m[k+1,j]+p_{i-1}p_{k}p_{j} $
 
   ```
   n = p.length-1
@@ -44,4 +39,32 @@
   return m and s
   ```
 
-- LCS Problem: Longest Common Subsequence 
+- LCS Problem: [Longest Common Subsequence](https://github.com/Zidane-Han/myLeetcode/tree/master/DP/1143%20Longest%20Common%20Subsequence)
+
+  c[i,j] = 0    if i = 0 or j = 0;
+  c[i,j] = c[i-1,j-1] + 1   if i,j > 0 and Xi = Yi;
+  c[i,j] = max(c[i,j-1],c[i-1,j])   if i,j > 0 and Xi != Yi;
+
+  ```
+  m = X.length
+  n = Y.length
+  let b[1..m, 1..n] and c[0..m, 0..n] be new tables
+
+  for i = 1 to n
+      c[i,0] = 0
+  for j = 0 to n
+      c[0,j] = 0
+
+  for i = 1 to m
+      for j = 1 to n
+          if X[i] == Y[j]
+              c[i,j] = c[i-1,j-1] + 1
+              b[i,j] = "\"
+          else if c[i-1,j] >= c[i,j-1]
+              c[i,j] = c[i-1,j]
+              b[i,j] = "|"
+          else 
+              c[i,j] = c[i,j-1]
+              b[i,j] = "-"
+  return c and b
+  ```

@@ -1,6 +1,12 @@
 **vector**
 
 ```c++
+// initialize array
+int arrary[length];
+int arrary[] = {1, 2, 3, 4};
+int arrary[length] = {1, 2, 3, 4};
+int array[lengthA][lengthB];
+
 // initialization
 vector<int> v;
 vector<int> v = {0,1,2,3,4,5};
@@ -29,7 +35,7 @@ int min_val = *min_pos;
 // relative distance
 int idx = distance(v.begin(), v.begin() + 5);
 
-// sort 
+// sort
 sort(v.begin(), v.end());
 // count element frequency
 count(v.begin(), v.end(), element);
