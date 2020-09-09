@@ -20,3 +20,9 @@
 - **Dynamic programming**
 - **Graph**: topological sort; Dijkstra's algorithm; Floyd-Warshall algorithm; Bellman-Ford-Moore algorithm; Prim's algorithm
 
+## Premium Problem
+
+|  #  | Title           |   Difficulty    |  
+|-----|---------------- | --------------- | 
+252 | [Meeting Rooms](https://github.com/Zidane-Han/myLeetcode/tree/master/Sort/252%20Meeting%20Rooms) | Easy    |||
+253 | [Meeting Rooms II](https://github.com/Zidane-Han/myLeetcode/tree/master/Sort/253%20Meeting%20Rooms%20II) | Medium  |||
