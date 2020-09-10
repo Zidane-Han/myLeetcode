@@ -5,7 +5,7 @@
 int arrary[length];
 int arrary[] = {1, 2, 3, 4};
 int arrary[length] = {1, 2, 3, 4};
-int array[lengthA][lengthB];
+int array[lengthA][lengthB];	// only declare
 
 // initialization
 vector<int> v;
@@ -76,5 +76,17 @@ s.append(times, char);
 // conversion
 stoi(str);  // string to int
 to_string(num); // any type of values to string 
+```
+
+**priority_queue**
+
+```cpp
+// declare
+priority_queue<int> pq;	// largetest by default
+priority_queue<int, vector<int>, greater<int> > pq;	// smallest at top
+
+pq.push(val);	
+pq.top();	// access the top element
+pq.pop();	// remove the top element
 ```
 
