@@ -21,4 +21,10 @@ Output: "bb"
 
 ## Idea
 
+**Approach 1:** by definition
 
+**Approach 2:** dynamic programming
+
+**Approach 3:** Manacher's Algorithm
+
+Variation: prob 516 "Longest Palindromic Subsequence"
