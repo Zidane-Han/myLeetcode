@@ -28,3 +28,7 @@ c = a << 2     # 240 = 1111 0000
 ```python
 c = a >> 2     # 15 = 0000 1111
 ```
+
+- More skills on bit manipulation
+
+  https://blog.whezh.com/bit-hacks/
