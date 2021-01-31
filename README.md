@@ -26,6 +26,7 @@
 |-----|---------------- | --------------- | 
 252 | [Meeting Rooms](https://github.com/Zidane-Han/myLeetcode/tree/master/Sort/252%20Meeting%20Rooms) | Easy    |||
 253 | [Meeting Rooms II](https://github.com/Zidane-Han/myLeetcode/tree/master/Sort/253%20Meeting%20Rooms%20II) | Medium  |||
+261 | [Graph Valid Tree](https://github.com/Zidane-Han/myLeetcode/tree/master/Union%20Find/261%20Graph%20Valid%20Tree) | Medium  |||
 266 | [Palindrome Permutation](https://github.com/Zidane-Han/myLeetcode/tree/master/String/Palindrome/266%20Palindrome%20Permutation) | Easy  |||
 277 | [Find the Celebrity](https://github.com/Zidane-Han/myLeetcode/tree/master/277%20Find%20the%20Celebrity) | Medium  |||
 296 | [Best Meeting Point](https://github.com/Zidane-Han/myLeetcode/tree/master/296%20Best%20Meeting%20Point) | Hard  |||
@@ -36,5 +37,7 @@
 339 | [Nested List Weight Sum](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/339%20Nested%20List%20Weight%20Sum) | Easy  |||
 369 | [Plus One Linked List](https://github.com/Zidane-Han/myLeetcode/tree/master/Linked%20List/369%20Plus%20One%20Linked%20List) | Medium  |||
 490 | [The Maze](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/490%20The%20Maze) | Medium  |||
+499 | [The Maze III] | Hard  |||
+505 | [The Maze II] | Medium  |||
 531 | [Lonely Pixel I](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/531%20Lonely%20Pixel%20I) | Medium  |||
 708 | [Insert into a Sorted Circular Linked List](https://github.com/Zidane-Han/myLeetcode/tree/master/Linked%20List/708%20Insert%20into%20a%20Cyclic%20Sorted%20List) | Medium  |||
