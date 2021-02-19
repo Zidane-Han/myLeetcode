@@ -96,9 +96,9 @@ while Q is not empty
 - Complexity: O(V^3)
 
 - Method: DP
-  $$
-  d^{k}_{ij}=min(d^{k-1}_{ij},d^{k-1}_{ik}+d^{k-1}_{kj})
-  $$
+
+  $$ d^{k}_{ij}=min(d^{k-1}_{ij},d^{k-1}_{ik}+d^{k-1}_{kj}) $$
+  
   
 ## Problem: Maximum flow 
 - Ford-Fulkerson method
