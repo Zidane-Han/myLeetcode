@@ -78,7 +78,8 @@ while Q is not empty
 **Dijkstra’s algorithm**
 
 - Directional, non-negative weighted, single source
-- Complexity: O(V^2) with array; O((V+E)lgV) with binary heap; O((VlgV+E) with Fibonacci heap 
+- Complexity: O(V^2) with array; O((V+E)lgV) with binary heap; O((VlgV+E) with Fibonacci heap
+- Greedy method
 
     ```html
     priority queue Q = G.V

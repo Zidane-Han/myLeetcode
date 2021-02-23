@@ -7,14 +7,12 @@ public:
         for (auto edge : times) {
             adj[edge[0]].emplace_back(edge[2], edge[1]);
         }
-        // visited
-        vector<bool> visited(n+1, false);
-            
+        
         // dist
         vector<int> dist(n+1, INT_MAX);
         dist[k] = 0;
         
-        // pq for bfs
+        // pq
         priority_queue<pii, vector<pii>, greater<pii>> pq;
         pq.push({0, k});
         
@@ -23,8 +21,7 @@ public:
             pq.pop();
             int weight = currt.first;
             int u = currt.second;
-            if (visited[u]) continue;
-            visited[u] = true;
+            
             for (auto v : adj[u]) {
                 if (weight + v.first < dist[v.second]) {
                     dist[v.second] = weight + v.first;
