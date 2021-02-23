@@ -98,8 +98,19 @@ while Q is not empty
 
 - Method: DP
 
-  $$ d^{k}_{ij}=min(d^{k-1}_{ij},d^{k-1}_{ik}+d^{k-1}_{kj}) $$
-  
+    transition function: `D[i][j] = min(D[i][j], D[i][k] + D[k][j])`
+
+    ```cpp
+    void Floyds() {
+        for (int k = 0; k < n; k++) {
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    D[i][j] = min(D[i][j], D[i][k] + D[k][j]);
+                }
+            }
+        }
+    }
+    ```
   
 ## Problem: Maximum flow 
 - Ford-Fulkerson method
