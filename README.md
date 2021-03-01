@@ -41,3 +41,5 @@
 505 | [The Maze II] | Medium  |||
 531 | [Lonely Pixel I](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/531%20Lonely%20Pixel%20I) | Medium  |||
 708 | [Insert into a Sorted Circular Linked List](https://github.com/Zidane-Han/myLeetcode/tree/master/Linked%20List/708%20Insert%20into%20a%20Cyclic%20Sorted%20List) | Medium  |||
+1059 | [All Paths from Source Lead to Destination](https://github.com/Zidane-Han/myLeetcode/tree/master/Graph/Path/1059%20All%20Paths%20from%20Source%20Lead%20to%20Destination) | Medium  |||
+1135 | [Connecting Cities With Minimum Cost] | Medium  |||

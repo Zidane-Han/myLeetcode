@@ -31,21 +31,34 @@
 
 - Complexity: O(E*lgV), O(E+VlgV) with Fibonacci heap
 
+- Kruskal algorithm
+
+  Search each edge in nondecreasing order by weight. If the edge can connect two different trees, add it into the forest.
+
+```html
+for each vertex v in G.V
+	MAKESET(v);
+
+sort the edges into nondecreasing order by weight w;
+
+for each edge(u, v) in G.E
+	if GET-ROOT(u) != GET-ROOT(v)
+		UNION(u, v);
+
+return;
+```
+
 - Prim algorithm
 
 ```html
-for each u in G.V
-	u.key = inf
-	u.pi = NIL
+construct graph with adj list;
 
-r.key = 0
-Q = G.V
+init priority queue Q;
 
 while Q is not empty
 	u = EXTRACT-MIN(Q)
-	for each v in G.adj[u]
-		if v in Q && w(u,v) < v.key
-    	v.pi = u
+	for each v in adj[u]
+		if v in Q and w(u,v) < v.cost
       v.key = w(u,v)
 ```
 
@@ -111,6 +124,6 @@ while Q is not empty
         }
     }
     ```
-  
+
 ## Problem: Maximum flow 
 - Ford-Fulkerson method

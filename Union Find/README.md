@@ -17,13 +17,13 @@ for (int i = 0; i < N; i++) {
 - Complexity: O(N) 
 
 ```c++
-void union(int p, int q) {
+void connect(int p, int q) {
     int pid = root(p);
     int qid = root(q);
     uf[pid] = qid;
 }
 
-bool connected(int p, int q) {
+bool isconnected(int p, int q) {
     return (root(p) == root(q));
 }
 ```
@@ -51,7 +51,7 @@ int root(int i) {
 
   ```c++
   // maintain extra array sz[i] to count number of objects in the tree rooted at i
-  void union(int p, int q) {
+  void connect(int p, int q) {
     int pid = root(p);
     int qid = root(q);
 
