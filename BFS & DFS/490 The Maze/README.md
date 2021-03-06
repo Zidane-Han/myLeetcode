@@ -1,37 +1,61 @@
 # The Maze (Medium)
 ## Description
-There is a ball in a maze with empty spaces and walls. The ball can go through empty spaces by rolling up, down, left or right, but it won't stop rolling until hitting a wall. When the ball stops, it could choose the next direction.
+There is a ball in a `maze` with empty spaces (represented as `0`) and walls (represented as `1`). The ball can go through the empty spaces by rolling **up, down, left or right**, but it won't stop rolling until hitting a wall. When the ball stops, it could choose the next direction.
 
-Given the ball's start position, the destination and the maze, determine whether the ball could stop at the destination.
+Given the `maze`, the ball's `start` position and the `destination`, where `start = [startrow, startcol]` and `destination = [destinationrow, destinationcol]`, return `true` if the ball can stop at the destination, otherwise return `false`.
 
-The maze is represented by a binary 2D array. 1 means the wall and 0 means the empty space. You may assume that the borders of the maze are all walls. The start and destination coordinates are represented by row and column indexes.
+You may assume that **the borders of the maze are all walls** (see examples).
 
-Example:
 
-Input 1: a maze represented by a 2D array
-```python
-0 0 1 0 0
-0 0 0 0 0
-0 0 0 1 0
-1 1 0 1 1
-0 0 0 0 0
+
+**Example 1**:
+
+![avatar](https://assets.leetcode.com/uploads/2020/09/01/maze1.png)
+
+```html
+Input: maze = [[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]], start = [0,4], destination = [4,4]
+Output: true
+Explanation: One possible way is : left -> down -> left -> down -> right -> down -> right.
 ```
 
-Input 2: start coordinate (rowStart, colStart) = (0, 4)
+**Example 2**:
 
-Input 3: destination coordinate (rowDest, colDest) = (4, 4)
+![avatar](https://assets.leetcode.com/uploads/2020/09/01/maze2.png)
 
-Output: true
+```html
+Input: maze = [[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]], start = [0,4], destination = [3,2]
+Output: false
+Explanation: There is no way for the ball to stop at the destination. Notice that you can pass through the destination but you cannot stop there.
+```
 
-Note:
+**Example 3**:
 
-1. There is only one ball and one destination in the maze.
+```html
+Input: maze = [[0,0,0,0,0],[1,1,0,0,1],[0,0,0,0,0],[0,1,0,0,1],[0,1,0,0,0]], start = [4,3], destination = [0,1]
+Output: false
+```
 
-2. Both the ball and the destination exist on an empty space, and they will not be at the same position initially.
 
-3. The given maze does not contain border (like the red rectangle in the example pictures), but you could assume the border of the maze are all walls.
 
-4. The maze contains at least 2 empty spaces, and both the width and height of the maze won't exceed 100.
+**Constraints:**
+
+- `1 <= maze.length, maze[i].length <= 100`
+
+- `maze[i][j]` is `0` or `1`.
+
+- `start.length == 2`
+
+- `destination.length == 2`
+
+- `0 <= startrow, destinationrow <= maze.length`
+
+- `0 <= startcol, destinationcol <= maze[i].length`
+
+- Both the ball and the destination exist on an empty space, and they will not be at the same position initially.
+
+- The maze contains **at least 2 empty spaces**.
+
+  
 
 ## Idea
 DFS

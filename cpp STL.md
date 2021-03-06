@@ -49,6 +49,17 @@ st.top();  // access the top element
 st.pop();  // remove the top element
 ```
 
+**queue**
+
+```c++
+q.push(element);  // insert element
+q.emplce(element);  // construct and insert element
+q.front();  // access next element
+q.back();   // access last element
+q.pop();    // remove next element
+q1.swap(q2);    // exchange the contents of the queues 
+```
+
 **unordered_map**
 
 ```cpp
