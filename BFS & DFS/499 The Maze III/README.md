@@ -10,6 +10,8 @@ The maze is represented by a binary 2D array. 1 means the wall and 0 means the e
 
 **Example 1:**
 
+![avatar](https://assets.leetcode.com/uploads/2018/10/13/maze_2_example_1.png)
+
 ```
 Input 1: a maze represented by a 2D array
 
@@ -31,8 +33,10 @@ Both ways have shortest distance 6, but the first way is lexicographically small
 ```
 
 
-
 **Example 2**:
+
+![avatar](https://assets.leetcode.com/uploads/2018/10/13/maze_2_example_2.png)
+
 ```html
 Input 1: a maze represented by a 2D array
 
