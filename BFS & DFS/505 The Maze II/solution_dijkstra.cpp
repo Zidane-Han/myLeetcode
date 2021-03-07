@@ -15,7 +15,7 @@ public:
         
         while (!pq.empty()) {
             auto currt = pq.top();  pq.pop();
-            if (currt[1] == destination[0] && currt[2] == destination[1]) continue;
+            if (currt[1] == destination[0] && currt[2] == destination[1]) break;
             
             for (auto dir : dirs) {
                 int x = currt[1];

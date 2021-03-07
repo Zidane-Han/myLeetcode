@@ -37,8 +37,8 @@
 339 | [Nested List Weight Sum](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/339%20Nested%20List%20Weight%20Sum) | Easy  |||
 369 | [Plus One Linked List](https://github.com/Zidane-Han/myLeetcode/tree/master/Linked%20List/369%20Plus%20One%20Linked%20List) | Medium  |||
 490 | [The Maze](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/490%20The%20Maze) | Medium  |||
-499 | [The Maze III] | Hard  |||
-505 | [The Maze II] | Medium  |||
+499 | [The Maze III](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/499%20The%20Maze%20III) | Hard  |||
+505 | [The Maze II](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/505%20The%20Maze%20II) | Medium  |||
 531 | [Lonely Pixel I](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/531%20Lonely%20Pixel%20I) | Medium  |||
 708 | [Insert into a Sorted Circular Linked List](https://github.com/Zidane-Han/myLeetcode/tree/master/Linked%20List/708%20Insert%20into%20a%20Cyclic%20Sorted%20List) | Medium  |||
 734 | [Sentence Similarity](https://github.com/Zidane-Han/myLeetcode/tree/master/734%20Sentence%20Similarity) | Easy  |||
