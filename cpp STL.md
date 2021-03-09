@@ -71,7 +71,7 @@ u.erase(key)
 
 ```cpp
 // find
-// return 1st char of the first match; otherwise returns string::npos
+// return the position of 1st char of the first match; otherwise returns string::npos
 s.find(substring);
 s.find(substring, start_index);
 s.find(substring, start_index, len); // length of subtring to match

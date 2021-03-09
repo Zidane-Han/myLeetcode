@@ -28,6 +28,7 @@
 253 | [Meeting Rooms II](https://github.com/Zidane-Han/myLeetcode/tree/master/Sort/253%20Meeting%20Rooms%20II) | Medium  |||
 261 | [Graph Valid Tree](https://github.com/Zidane-Han/myLeetcode/tree/master/Union%20Find/261%20Graph%20Valid%20Tree) | Medium  |||
 266 | [Palindrome Permutation](https://github.com/Zidane-Han/myLeetcode/tree/master/String/Palindrome/266%20Palindrome%20Permutation) | Easy  |||
+269 | [Alien Dictionary] | Hard  |||
 277 | [Find the Celebrity](https://github.com/Zidane-Han/myLeetcode/tree/master/277%20Find%20the%20Celebrity) | Medium  |||
 296 | [Best Meeting Point](https://github.com/Zidane-Han/myLeetcode/tree/master/296%20Best%20Meeting%20Point) | Hard  |||
 311 | [Sparse Matrix Multiplication](https://github.com/Zidane-Han/myLeetcode/tree/master/Math/311%20Sparse%20Matrix%20Multiplication) | Medium  |||
