@@ -42,10 +42,11 @@
 499 | [The Maze III](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/499%20The%20Maze%20III) | Hard  |||
 505 | [The Maze II](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/505%20The%20Maze%20II) | Medium  |||
 531 | [Lonely Pixel I](https://github.com/Zidane-Han/myLeetcode/tree/master/BFS%20%26%20DFS/531%20Lonely%20Pixel%20I) | Medium  |||
-666 | [Path Sum IV] | Medium  |||
+666 | [Path Sum IV](https://github.com/Zidane-Han/myLeetcode/tree/master/BST/666%20Path%20Sum%20IV) | Medium  |||
 708 | [Insert into a Sorted Circular Linked List](https://github.com/Zidane-Han/myLeetcode/tree/master/Linked%20List/708%20Insert%20into%20a%20Cyclic%20Sorted%20List) | Medium  |||
 734 | [Sentence Similarity](https://github.com/Zidane-Han/myLeetcode/tree/master/734%20Sentence%20Similarity) | Easy  |||
 737 | [Sentence Similarity II](https://github.com/Zidane-Han/myLeetcode/tree/master/737%20Sentence%20Similarity%20II) | Medium  |||
 1059 | [All Paths from Source Lead to Destination](https://github.com/Zidane-Han/myLeetcode/tree/master/Graph/Path/1059%20All%20Paths%20from%20Source%20Lead%20to%20Destination) | Medium  |||
 1102 | [Path With Maximum Minimum Value](https://github.com/Zidane-Han/myLeetcode/tree/master/Graph/Path/1102%20Path%20With%20Maximum%20Minimum%20Value) | Medium  |||
 1135 | [Connecting Cities With Minimum Cost](https://github.com/Zidane-Han/myLeetcode/tree/master/Graph/1135%20Connecting%20Cities%20With%20Minimum%20Cost) | Medium  |||
+1214 | [Two Sum BSTs] | Medium  |||
