@@ -1,6 +1,6 @@
 **vector**
 
-```c++
+```cpp
 // initialize array
 int arrary[length];
 int arrary[] = {1, 2, 3, 4};
@@ -28,17 +28,20 @@ v.insert(it_pos, ele);
 v.insert(it_pos, count, ele);
 v.insert(it_pos, eles.begin(), eles.end());
 
-// min value
-iterator min_pos = min_element(v.begin(), v.end());
-int min_val = *min_pos;
-
-// relative distance
-int idx = distance(v.begin(), v.begin() + 5);
-
 // sort
 sort(v.begin(), v.end());
 // count element frequency
 count(v.begin(), v.end(), element);
+
+// relative distance
+int idx = distance(v.begin(), v.begin() + 5);
+
+/* math */
+// min value of a vector
+iterator min_pos = min_element(v.begin(), v.end());
+int min_val = *min_pos;
+// sum value of a vector
+int sum = accumulate(v.begin(), v.end(), sum0);
 ```
 
 **stack**
