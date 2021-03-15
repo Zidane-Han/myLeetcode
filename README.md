@@ -49,4 +49,4 @@
 1059 | [All Paths from Source Lead to Destination](https://github.com/Zidane-Han/myLeetcode/tree/master/Graph/Path/1059%20All%20Paths%20from%20Source%20Lead%20to%20Destination) | Medium  |||
 1102 | [Path With Maximum Minimum Value](https://github.com/Zidane-Han/myLeetcode/tree/master/Graph/Path/1102%20Path%20With%20Maximum%20Minimum%20Value) | Medium  |||
 1135 | [Connecting Cities With Minimum Cost](https://github.com/Zidane-Han/myLeetcode/tree/master/Graph/1135%20Connecting%20Cities%20With%20Minimum%20Cost) | Medium  |||
-1214 | [Two Sum BSTs] | Medium  |||
+1214 | [Two Sum BSTs](https://github.com/Zidane-Han/myLeetcode/tree/master/BST/1214%20Two%20Sum%20BSTs) | Medium  |||
