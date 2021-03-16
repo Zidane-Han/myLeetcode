@@ -44,6 +44,17 @@ int min_val = *min_pos;
 int sum = accumulate(v.begin(), v.end(), sum0);
 ```
 
+**unordered_set**
+
+```c++
+s.insert(element);  // insert the element
+s.count(element);  // count the freq of the element
+// erase the elements
+s.erase(s.begin());		// erasing by iterator
+s.erase("France");		// erasing by key
+s.erase(s.find("Japan"), s.end() );	// erasing by range
+```
+
 **stack**
 
 ```c++
