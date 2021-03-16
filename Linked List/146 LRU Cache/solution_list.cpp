@@ -1,33 +1,47 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
-class Solution {
+class LRUCache {
+private:
+    int cap;
+    vector<int> dict;
+    list<int> used;
+    
 public:
-    bool dfs(TreeNode* node, int sum, int value) {
-        if (node == nullptr) {
-            return false;
-        } else {
-            value += node->val;
-        }
-        
-        if (value == sum && node->left == nullptr && node->right == nullptr) {
-            return true;
-        } else {
-            return (dfs(node->left, sum, value) || dfs(node->right, sum, value));
-        }
-        
+    LRUCache(int capacity) {
+        cap = capacity;
+        dict.resize(3001, -1);
     }
     
-    bool hasPathSum(TreeNode* root, int sum) {
-        if (root == nullptr) return false;
-        else return dfs(root, sum, 0);
+    int get(int key) {
+        if (dict[key] == -1)    return -1;
+        else {
+            used.remove(key);
+            used.push_back(key);
+        }
+        return dict[key];
+    }
+    
+    void put(int key, int value) {
+        if (dict[key] != -1) {
+            dict[key] = value;
+            used.remove(key);
+            used.push_back(key);
+            return;
+        }
         
+        dict[key] = value;
+        if (used.size() == cap) {   // overfilled
+            int tmp = used.front();
+            used.pop_front();
+            dict[tmp] = -1;
+        }
         
+        used.push_back(key);
+        return;
     }
 };
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
+ */

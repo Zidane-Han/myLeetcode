@@ -50,10 +50,10 @@ lRUCache.get(4);    // return 4
 
 ## Idea
 
-1. Data structure with List to track the LRU elements.
+1. Data structure with List to track the LRU elements. (solution_list)
 
    As operation list.remove(key) takes O(n) time, so the time complexity is O(n).
 
-2. Data structure with List and HashMap.
+2. Data structure with List and HashMap. (solution_hashmap)
 
    Idea: list.erase(iterator) takes O(1) time; the hash map refers to the iterator of the key value.
