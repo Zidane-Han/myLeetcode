@@ -30,4 +30,5 @@ Explanation: "the", "is", "sunny" and "day" are the four most frequent words,
 - Try to solve it in O(n log k) time and O(n) extra space.
 
 ## Idea
-exercise for cpp vector comp function
+
+use heap, which requires to redefine compare function of cpp priority_queue.
