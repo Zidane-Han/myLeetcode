@@ -23,8 +23,9 @@ Note:
 You may assume k is always valid, 1 ≤ k ≤ array's length.
 
 ## Idea
-Method 1: time O(NlgN); space O(1)
 
-Method 2: time O(Nlgk); space O(k)
+Sort: time O(NlgN); space O(1)
 
-Method 3: time O(N) in average and O(N^2) worst; space O(1)
+Heap: time O(Nlgk); space O(k)
+
+Quickselect: time O(N) in average and O(N^2) worst; space O(1)
