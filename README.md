@@ -16,7 +16,7 @@
 
 - **Basic method**: divide and conquer; recursion; backtracking; greedy
 - **Sort**: quicksort; shell sort; heapsort; mergesort; insertion sort; bucket sort; radix sort
-- **Search**: scan-line; double pointers; breath-first-search (BFS); depth-first-search (DFS); binary search tree (BST)
+- **Search**: scan-line; double pointers; binary search; breath-first-search (BFS); depth-first-search (DFS); binary search tree (BST)
 - **Dynamic programming**
 - **Graph**: topological sort; Dijkstra's algorithm; Floyd-Warshall algorithm; Bellman-Ford-Moore algorithm; Prim's algorithm
 
